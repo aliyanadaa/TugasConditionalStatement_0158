@@ -23,3 +23,7 @@ string statusBMI(double bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+
+}
