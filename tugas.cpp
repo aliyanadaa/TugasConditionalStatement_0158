@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 void inputData(double &berat, double &tinggi) {
@@ -33,4 +34,9 @@ int main() {
     bmi = hitungBMI(berat, tinggi);
     status = statusBMI(bmi);
 
+    cout << "\n----Hasil----" << endl;
+    cout << "BMI Anda : " << fixed << setprecision(4) << bmi << endl;
+    cout << "Status   : " << status << endl;
+
+    return 0;
 }
