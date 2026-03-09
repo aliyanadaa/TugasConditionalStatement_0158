@@ -29,6 +29,8 @@ int main() {
         double berat, tinggi, bmi;
     string status;
 
+     cout << "---- Selamat Datang Mahasiswa Kelas A 2025 ----" << endl;
+
     inputData(berat, tinggi);
 
     bmi = hitungBMI(berat, tinggi);
