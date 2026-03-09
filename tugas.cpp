@@ -25,5 +25,12 @@ string statusBMI(double bmi) {
 }
 
 int main() {
+        double berat, tinggi, bmi;
+    string status;
+
+    inputData(berat, tinggi);
+
+    bmi = hitungBMI(berat, tinggi);
+    status = statusBMI(bmi);
 
 }
